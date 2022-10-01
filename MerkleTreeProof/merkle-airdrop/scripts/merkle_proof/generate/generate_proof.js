@@ -88,8 +88,7 @@ function main() {
         // console.log(gotchi_dist_list[line])
         const user_claim = {
           address: other[0],
-          itemID: other[1],
-          amount: other[2],
+          amount: other[1],
         };
         full_user_claim[user_dist_list[line][0]] = user_claim;
       }
